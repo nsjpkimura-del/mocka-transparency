@@ -88,3 +88,8 @@ MoCKA Transparency は、MoCKA構造における公開検証および外部証�
 秘密を公開せずに、完全性を証明する。
 
 それがこのリポジトリの役割です。
+
+---
+Part of the MoCKA Deterministic Governance Architecture.
+See Civilization layer for full structural doctrine.
+
