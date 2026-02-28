@@ -1,5 +1,7 @@
 ﻿[Whitepaper v0.1](https://github.com/nsjpkimura-del/mocka-civilization/blob/main/WHITEPAPER_v0.1.md)
 
+Public audit and verification layer.
+
 # MoCKA Transparency
 
 ## Public Verification & Time-Anchored Audit Layer  
