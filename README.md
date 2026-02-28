@@ -1,4 +1,6 @@
-﻿# MoCKA Transparency
+﻿[Whitepaper v0.1](https://github.com/nsjpkimura-del/mocka-civilization/blob/main/WHITEPAPER_v0.1.md)
+
+# MoCKA Transparency
 
 ## Public Verification & Time-Anchored Audit Layer  
 MoCKA Transparency ― 公開検証および外部証明層
@@ -92,4 +94,5 @@ MoCKA Transparency は、MoCKA構造における公開検証および外部証�
 ---
 Part of the MoCKA Deterministic Governance Architecture.
 See Civilization layer for full structural doctrine.
+
 
