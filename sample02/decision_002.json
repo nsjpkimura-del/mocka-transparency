@@ -1,0 +1,7 @@
+﻿{
+  "schema": "mocka.transparency.sample02.decision.v1",
+  "seq": 2,
+  "timestamp_utc": "2026-03-01T00:00:10Z",
+  "action": "update",
+  "note": "middle record"
+}

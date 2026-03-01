@@ -1,0 +1,7 @@
+﻿{
+  "schema": "mocka.transparency.sample02.decision.v1",
+  "seq": 1,
+  "timestamp_utc": "2026-03-01T00:00:00Z",
+  "action": "init",
+  "note": "chain start"
+}

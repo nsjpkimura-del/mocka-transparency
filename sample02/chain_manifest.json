@@ -1,0 +1,27 @@
+{
+  "schema": "mocka.transparency.sample02.chain_manifest.v1",
+  "created_utc": "2026-03-01T06:26:27Z",
+  "signed_by": "Verifier-Test-2026",
+  "entries": [
+    {
+      "file": "decision_001.json",
+      "sha256": "b554559f8f60f2c63d799608be5f84ef3a6ad999836b45331d90cbb4c4409ed6",
+      "prev_chain_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "chain_hash": "ab68f899bd89a35a924e62ab39ec75d1d20869e0356fad8cbc15c1ac242b2cac"
+    },
+    {
+      "file": "decision_002.json",
+      "sha256": "63b29dc7e8a012239d10520e7828ac043bca6656403d461a7550d459c823411d",
+      "prev_chain_hash": "ab68f899bd89a35a924e62ab39ec75d1d20869e0356fad8cbc15c1ac242b2cac",
+      "chain_hash": "60d07bb9eb5e324e0847217e1ad89787cdb83d30165c6ba5f69db685aa0f8fd4"
+    },
+    {
+      "file": "decision_003.json",
+      "sha256": "ce51bce6d9291181658eb07f1e7c618f796d1f2cd85e2cc86e3ec84dc26498dc",
+      "prev_chain_hash": "60d07bb9eb5e324e0847217e1ad89787cdb83d30165c6ba5f69db685aa0f8fd4",
+      "chain_hash": "4b2103ae0d57141545c298018294877b013d788b8f55c81081a5245d5ae5759b"
+    }
+  ],
+  "final_chain_hash": "4b2103ae0d57141545c298018294877b013d788b8f55c81081a5245d5ae5759b",
+  "signature_file": "chain_signature.bin"
+}
