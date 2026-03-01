@@ -1,0 +1,13 @@
+# venv
+.venv/
+
+# private keys must never be committed
+keys/*_private.pem
+keys/*_private.key
+keys/*_private*
+
+# local scratch
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
