@@ -10,5 +10,7 @@ keys/*_private*
 *.bak
 *.tmp
 .DS_Store
-Thumbs.dbsample04/observer_pack/
+Thumbs.db
+
+# generated observer pack workspace (zip is the artifact)
 sample04/observer_pack/
