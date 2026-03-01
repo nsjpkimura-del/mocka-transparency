@@ -1,0 +1,8 @@
+﻿{
+  "schema": "mocka.transparency.sample03.decision.v1",
+  "key_id": "Outfield-Test-2026",
+  "seq": 1,
+  "timestamp_utc": "2026-03-01T00:10:00Z",
+  "action": "approve",
+  "note": "signed with OLD key"
+}

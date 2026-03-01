@@ -1,0 +1,21 @@
+{
+  "schema": "mocka.transparency.sample03.rotation_manifest.v1",
+  "created_utc": "2026-03-01T06:35:10Z",
+  "rotation": {
+    "from_key": "Outfield-Test-2026",
+    "to_key": "Outfield-Test-2028",
+    "reason": "key compromise simulation"
+  },
+  "entries": [
+    {
+      "file": "decision_old.json",
+      "sha256": "abe587effba6a7b4852e5bd008f821ecd105af137a4d29f005003b6bc4287fc5"
+    },
+    {
+      "file": "decision_new.json",
+      "sha256": "fcf5630b330817682824471dce012204111a2f971bf1ca857b4275303504fe4c"
+    }
+  ],
+  "signature_old": "sig_old.bin",
+  "signature_new": "sig_new.bin"
+}
