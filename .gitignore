@@ -10,4 +10,5 @@ keys/*_private*
 *.bak
 *.tmp
 .DS_Store
-Thumbs.db
+Thumbs.dbsample04/observer_pack/
+sample04/observer_pack/
