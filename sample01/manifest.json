@@ -1,0 +1,8 @@
+{
+  "schema": "mocka.transparency.manifest.v1",
+  "created_utc": "2026-03-01T06:18:43Z",
+  "file": "decision_log.json",
+  "sha256": "14dcae1fb781ebe66b1327035d6a1b7b6d328f4ec7b8d5ee0dd1e36006306767",
+  "signed_by": "Outfield-Test-2026",
+  "signature_file": "signature.bin"
+}

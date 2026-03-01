@@ -1,0 +1,9 @@
+﻿{
+  "schema": "mocka.transparency.sample01.v1",
+  "decision_id": "S01-DECISION-0001",
+  "timestamp_utc": "2026-03-01T00:00:00Z",
+  "actor": "Outfield-Test-2026",
+  "action": "approve",
+  "target": "tamper-proof-decision-log",
+  "reason": "Initial sealed decision log for Transparency v2 demo"
+}
