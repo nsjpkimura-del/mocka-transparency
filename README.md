@@ -111,3 +111,5 @@ mocka-transparency は MoCKA エコシステムの
 3 公開可能な成果物のみを公開する
 
 4 外部観測者が独立検証できる状態にする
+## Role
+Primary Role: Transparency
