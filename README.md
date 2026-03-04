@@ -1,4 +1,13 @@
-﻿MoCKA Transparency
+﻿Ecosystem Navigation
+
+MoCKA https://github.com/nsjpkimura-del/MoCKA
+MoCKA Knowledge Gate https://github.com/nsjpkimura-del/MoCKA-KNOWLEDGE-GATE
+MoCKA Civilization https://github.com/nsjpkimura-del/mocka-civilization
+MoCKA Transparency https://github.com/nsjpkimura-del/mocka-transparency
+MoCKA External Brain https://github.com/nsjpkimura-del/mocka-external-brain
+MoCKA Core Private https://github.com/nsjpkimura-del/mocka-core-private
+
+MoCKA Transparency
 
 
 Role
