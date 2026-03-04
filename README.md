@@ -1,276 +1,104 @@
-﻿# MoCKA Ecosystem
+﻿MoCKA Transparency
 
-![License](https://img.shields.io/badge/license-MIT-blue)
-![Architecture](https://img.shields.io/badge/architecture-deterministic-black)
-![Governance](https://img.shields.io/badge/governance-verifiable-green)
-![Audit](https://img.shields.io/badge/audit-cryptographic-orange)
 
----
+Role
 
-## EN — Verifiable AI Governance Architecture
+mocka-transparency provides the transparency and integrity model for the MoCKA ecosystem.
 
-MoCKA is a deterministic governance architecture designed for verifiable AI systems.
+It defines how operational artifacts and decision traces can be inspected and verified by external observers.
 
-The ecosystem enforces reproducibility and auditability through:
 
-• deterministic orchestration  
-• cryptographic hash chains  
-• institutional memory preservation  
-• public verification infrastructure  
+What This Repository Contains
 
-Architecture Overview
+Integrity and transparency model documents.
 
-![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+Verification oriented operational guidance.
 
----
+Design rules for auditability and reproducibility.
 
-## JP — 検証可能AI統治アーキテクチャ
 
-MoCKA は **検証可能な AI 統治システム** のための決定論的アーキテクチャです。
+Canonical Documentation
 
-本エコシステムは以下によって再現性と監査可能性を保証します。
+Canonical docs are maintained in the ecosystem root documentation directory.
 
-・決定論的オーケストレーション  
-・暗号ハッシュ連鎖  
-・制度的記憶保存  
-・公開検証基盤  
+C:\Users\sirok\mocka-ecosystem\_canon\docs
 
-Architecture Overview
+Key documents
 
-![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+INTEGRITY_TRANSPARENCY_MODEL.md
+VERIFICATION_QUICKSTART.md
+MOCKA_REPOSITORY_MAP.md
+MOCKA_ECOSYSTEM_DIAGRAM.md
 
----
 
-## Ecosystem Map
+Core Concepts
 
-| Repository | Role |
-|---|---|
-| MoCKA | Deterministic orchestration core |
-| MoCKA-KNOWLEDGE-GATE | Institutional memory |
-| mocka-civilization | Governance doctrine |
-| mocka-transparency | Public verification |
-| mocka-external-brain | External interoperability |
-| mocka-core-private | Sovereign canonical domain |
+Transparency is not disclosure of everything.
 
----
+Transparency is structured disclosure with verifiable artifacts.
 
-# MoCKA Ecosystem
+Integrity is not trust.
 
-## EN — Overview
+Integrity is independently verifiable consistency.
 
-MoCKA is a verifiable AI governance architecture designed for deterministic decision systems.
 
-The ecosystem separates operational domains into **Infield** and **Outfield** to ensure:
+Typical Workflow
 
-• deterministic orchestration  
-• cryptographic auditability  
-• institutional memory preservation  
-• public transparency and verification  
+1 Generate operational artifacts
 
-Every artifact inside the ecosystem is designed to be **reproducible, verifiable, and auditable**.
+2 Hash and sign artifacts when required
 
-Architecture Overview
+3 Publish public safe artifacts
 
-![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+4 Allow external observers to verify independently
 
 
-## JP — 概要
+日本語説明
 
-MoCKA は、決定論的 AI システムのための  
-**検証可能な統治アーキテクチャ**です。
 
-システムは **Infield / Outfield** の領域分離によって
+mocka-transparency は MoCKA エコシステムの
 
-・決定論的オーケストレーション  
-・暗号学的監査可能性  
-・制度的記憶の保存  
-・公開検証による透明性  
+透明性
+整合性
 
-を実現します。
+モデルを定義するリポジトリである。
 
-本エコシステム内の成果物はすべて
 
-**再現可能・検証可能・監査可能**
+このリポジトリの目的
 
-であることを前提として設計されています。
+運用成果物と判断痕跡を
 
-Architecture Overview
+外部観測者が
 
-![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+検査
+検証
 
+できる形で成立させる。
 
----
 
-## Repository Position
+重要概念
 
-EN  
-This repository represents one component of the MoCKA ecosystem.
+透明性は
+何でも公開することではない。
 
-JP  
-このリポジトリは MoCKA エコシステムの構成要素の一つです。
+透明性は
+検証可能な成果物による
+構造化された公開である。
 
+整合性は
+信頼ではない。
 
----
+整合性は
+第三者が独立に検証できる
+一貫性である。
 
-## MoCKA Ecosystem
 
-| Repository | Role |
-|---|---|
-| MoCKA | Deterministic orchestration core |
-| MoCKA-KNOWLEDGE-GATE | Institutional memory layer |
-| mocka-civilization | Governance doctrine |
-| mocka-transparency | Public verification layer |
-| mocka-external-brain | External interoperability |
-| mocka-core-private | Sovereign canonical domain |
+典型的ワークフロー
 
+1 運用成果物を生成する
 
----
+2 必要に応じてハッシュと署名を付与する
 
-## Security Model
+3 公開可能な成果物のみを公開する
 
-EN  
-MoCKA enforces deterministic behavior and verifiable state transitions using:
-
-• cryptographic signatures  
-• hash chains  
-• reproducible artifacts  
-• governance constraints  
-
-JP  
-MoCKA は以下により決定論的挙動と検証可能状態遷移を保証します。
-
-・暗号署名  
-・ハッシュ連鎖  
-・再現可能アーティファクト  
-・統治制約
-
-
-
----
-
-## EN — Keywords
-
-verifiable AI  
-AI governance  
-deterministic systems  
-cryptographic audit  
-reproducible infrastructure  
-AI transparency  
-institutional memory  
-AI verification
-
----
-
-## JP — キーワード
-
-検証可能AI  
-AI統治  
-決定論的システム  
-暗号監査  
-再現可能インフラ  
-AI透明性  
-制度的記憶  
-AI検証
-
----
-
----
-
-## EN Verification Quickstart
-
-Clone the repository and verify commit signatures.
-
-git clone https://github.com/nsjpkimura-del/MoCKA.git
-cd MoCKA
-git log --show-signature
-
-Verify artifact integrity if hashes are provided.
-
-sha256sum <artifact>
-
-MoCKA repositories are designed to support deterministic builds and verifiable artifacts.
-
-
----
-
-## JP 検証クイックスタート
-
-リポジトリを取得し、コミット署名を確認します。
-
-git clone https://github.com/nsjpkimura-del/MoCKA.git
-cd MoCKA
-git log --show-signature
-
-成果物にハッシュがある場合は完全性を確認します。
-
-sha256sum <artifact>
-
-MoCKA リポジトリは決定論的ビルドと検証可能アーティファクトを前提に設計されています。
-
----
-
-
----
-
-EN Docs Entry
-See docs/INDEX.md for the documentation entry point.
-
-JP Docs 入口
-ドキュメント入口は docs/INDEX.md を参照。
-
----
-
----
-
-EN Document Standard
-
-See _canon/docs/MOCKA_DOCUMENT_STANDARD.md for the official documentation format.
-
-JP 文書規格
-
-公式文書フォーマットは _canon/docs/MOCKA_DOCUMENT_STANDARD.md を参照。
-
----
-
----
-
-EN Architecture Paper
-
-The MoCKA architecture paper is available in
-
-_canon/docs/MOCKA_ARCHITECTURE_PAPER.md
-
-JP アーキテクチャ論文
-
-MoCKA アーキテクチャ論文は以下にある
-
-_canon/docs/MOCKA_ARCHITECTURE_PAPER.md
-
----
-
----
-
-EN Whitepaper
-
-MoCKA Whitepaper
-
-_canon/docs/MOCKA_WHITEPAPER.md
-
-JP ホワイトペーパー
-
-MoCKA ホワイトペーパー
-
-_canon/docs/MOCKA_WHITEPAPER.md
-
----
-
----
-
-## Architecture Overview
-
-See architecture diagram
-
-docs/ARCHITECTURE.md
-
----
-
+4 外部観測者が独立検証できる状態にする
