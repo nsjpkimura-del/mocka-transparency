@@ -14,3 +14,4 @@ Thumbs.db
 
 # generated observer pack workspace (zip is the artifact)
 sample04/observer_pack/
+.backup/
