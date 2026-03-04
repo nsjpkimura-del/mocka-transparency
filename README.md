@@ -1,103 +1,90 @@
-﻿# MoCKA Transparency
+﻿# MoCKA Ecosystem
 
-MoCKA Transparency is the public verification and audit layer of the MoCKA Ecosystem.
+## EN — Overview
 
-It exposes cryptographic proofs, timestamp anchors, and integrity logs in a form that external observers can independently verify.
+MoCKA is a verifiable AI governance architecture designed for deterministic decision systems.
 
-This repository does not execute or govern.
-It proves.
+The ecosystem separates operational domains into **Infield** and **Outfield** to ensure:
 
-## Architecture Overview
+• deterministic orchestration  
+• cryptographic auditability  
+• institutional memory preservation  
+• public transparency and verification  
 
-Transparency connects deterministic artifacts from MoCKA and canonical traces from Knowledge Gate to external verifiers.
+Every artifact inside the ecosystem is designed to be **reproducible, verifiable, and auditable**.
 
-![MoCKA Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+Architecture Overview
 
-## Security Model
+![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
 
-Threat assumptions:
 
-- Undetected artifact tampering
-- Loss of public verifiability
-- Timestamp forgery
-- Observer asymmetry (internal vs external knowledge gap)
+## JP — 概要
 
-Controls:
+MoCKA は、決定論的 AI システムのための  
+**検証可能な統治アーキテクチャ**です。
 
-- Hash publication (SHA-256 integrity anchors)
-- RFC3161 timestamp anchoring (where applicable)
-- Signed verification packs
-- Independent reproducibility of verification scripts
+システムは **Infield / Outfield** の領域分離によって
 
-Transparency assumes that trust must be earned through verifiability.
+・決定論的オーケストレーション  
+・暗号学的監査可能性  
+・制度的記憶の保存  
+・公開検証による透明性  
 
-## Repository Responsibility
+を実現します。
 
-This repository focuses on:
+本エコシステム内の成果物はすべて
 
-- Publishing integrity hashes
-- Timestamp references
-- Public verification scripts
-- Audit-ready export artifacts
+**再現可能・検証可能・監査可能**
 
-It is optimized for external inspection.
+であることを前提として設計されています。
 
-## Relationship to Ecosystem
+Architecture Overview
 
-- MoCKA: produces deterministic artifacts
-- Knowledge Gate: preserves canonical traces
-- Civilization: defines governance rules
-- External Brain: may consume public proofs
+![Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+
 
 ---
 
-# MoCKA Transparency（日本語）
+## Repository Position
 
-MoCKA Transparency は、MoCKA エコシステムの公開検証層です。
+EN  
+This repository represents one component of the MoCKA ecosystem.
 
-暗号学的証明、タイムスタンプ固定、完全性ログを外部監査者が独立検証できる形で公開します。
+JP  
+このリポジトリは MoCKA エコシステムの構成要素の一つです。
 
-本リポジトリは実行もしません。
-統治もしません。
-証明します。
 
-## Architecture Overview（全体図）
+---
 
-Transparency は、MoCKA の決定成果物と Knowledge Gate の正本痕跡を外部検証者へ接続します。
+## MoCKA Ecosystem
 
-![MoCKA Architecture Overview](docs/architecture/mocka_architecture_overview.png)
+| Repository | Role |
+|---|---|
+| MoCKA | Deterministic orchestration core |
+| MoCKA-KNOWLEDGE-GATE | Institutional memory layer |
+| mocka-civilization | Governance doctrine |
+| mocka-transparency | Public verification layer |
+| mocka-external-brain | External interoperability |
+| mocka-core-private | Sovereign canonical domain |
 
-## Security Model（脅威と対策）
 
-想定脅威：
+---
 
-- 成果物改ざんの未検知
-- 公開検証性の喪失
-- タイムスタンプ偽造
-- 内外の情報非対称性
+## Security Model
 
-対策：
+EN  
+MoCKA enforces deterministic behavior and verifiable state transitions using:
 
-- SHA-256 完全性ハッシュ公開
-- RFC3161 タイムスタンプ固定（適用可能な場合）
-- 署名付き検証パック
-- 独立再現可能な検証スクリプト
+• cryptographic signatures  
+• hash chains  
+• reproducible artifacts  
+• governance constraints  
 
-Transparency は信頼を前提にしません。
-検証を前提にします。
+JP  
+MoCKA は以下により決定論的挙動と検証可能状態遷移を保証します。
 
-## 本リポジトリの責務
+・暗号署名  
+・ハッシュ連鎖  
+・再現可能アーティファクト  
+・統治制約
 
-- 完全性ハッシュの公開
-- タイムスタンプ参照の提示
-- 公開検証スクリプトの提供
-- 監査対応エクスポートの維持
-
-外部検査に最適化されています。
-
-## エコシステム関係
-
-- MoCKA：決定成果物生成
-- Knowledge Gate：正本保存
-- Civilization：統治定義
-- External Brain：公開証明の利用
