@@ -113,3 +113,7 @@ mocka-transparency は MoCKA エコシステムの
 4 外部観測者が独立検証できる状態にする
 ## Role
 Primary Role: Transparency
+
+## Research Map
+See: RESEARCH_MAP.md
+
