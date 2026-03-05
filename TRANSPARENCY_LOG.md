@@ -1,4 +1,4 @@
-﻿# Daily Root Hash Transparency Log
+# Daily Root Hash Transparency Log
 
 Format:
 DATE | ROOT_HASH | PROOF_SHA256 | RFC3161_TOKEN_SHA256
