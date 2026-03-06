@@ -4,6 +4,24 @@
 
  ---
 
+ ## MoCKA Dual Movement Architecture
+
+ MoCKA is designed as a dual movement system.
+
+ The primary movement performs research execution.
+
+ The shadow movement preserves knowledge circulation even when failures occur.
+
+ ![MoCKA Dual Movement](docs/images/mocka_dual_movement.svg)
+
+ Primary Movement operates at full capability.
+
+ Shadow Movement guarantees a minimum operating capability of approximately 75 percent.
+
+ This dual architecture ensures that knowledge circulation does not stop even if part of the system fails.
+
+ ---
+
  ## Why This Repository Exists
 
  Artificial intelligence can generate answers.
@@ -26,43 +44,15 @@
 
  ## MoCKA Verification Architecture
 
- The following diagram shows how research artifacts become verifiable evidence
- within the MoCKA Insight System.
+ The following diagram shows how research artifacts become verifiable evidence within the MoCKA Insight System.
 
- <svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+ ![MoCKA Verification Architecture](docs/images/mocka_verification_architecture.svg)
 
- <!-- MoCKA Core -->
- <rect x="60" y="150" width="180" height="80" rx="10" fill="#2d3748"/>
- <text x="150" y="195" text-anchor="middle" fill="white" font-size="16">MoCKA Core</text>
+ MoCKA converts AI results into verifiable research artifacts.
 
- <!-- Knowledge Gate -->
- <rect x="360" y="60" width="200" height="80" rx="10" fill="#4a5568"/>
- <text x="460" y="105" text-anchor="middle" fill="white" font-size="16">Knowledge Gate</text>
+ Operational outputs produced by the MoCKA Core are preserved through the Knowledge Gate and validated through the Transparency layer.
 
- <!-- Transparency -->
- <rect x="660" y="150" width="200" height="80" rx="10" fill="#2b6cb0"/>
- <text x="760" y="195" text-anchor="middle" fill="white" font-size="16">Transparency</text>
-
- <!-- Arrows -->
- <line x1="240" y1="190" x2="360" y2="100" stroke="#555" stroke-width="3"/>
- <polygon points="360,100 350,95 350,105" fill="#555"/>
-
- <line x1="560" y1="100" x2="660" y2="190" stroke="#555" stroke-width="3"/>
- <polygon points="660,190 650,185 650,195" fill="#555"/>
-
- <!-- labels -->
- <text x="290" y="135" font-size="13">research artifacts</text>
- <text x="610" y="140" font-size="13">verification evidence</text>
-
- <!-- description -->
- <text x="450" y="360" text-anchor="middle" font-size="14">
- MoCKA converts AI results into verifiable research artifacts
- </text>
-
- </svg>
-
- The architecture above illustrates how operational results produced by MoCKA
- are transformed into verifiable research artifacts through the transparency layer.
+ This architecture allows external observers to independently verify the integrity of the system.
 
  ---
 
@@ -80,24 +70,19 @@
  processes are traceable  
  artifacts are verifiable
 
- An AI result is therefore not just a statement.
+ An AI result therefore becomes evidence.
 
- It becomes evidence.
-
- Transparency transforms AI systems from black boxes
- into verifiable research infrastructure.
+ Transparency transforms AI systems from black boxes into verifiable research infrastructure.
 
  ---
 
  ## Role
 
- mocka-transparency defines the transparency and integrity model
- of the MoCKA Insight System.
+ mocka-transparency defines the transparency and integrity model of the MoCKA Insight System.
 
- It specifies how operational artifacts and decision traces
- can be inspected and verified by external observers.
+ It specifies how operational artifacts and decision traces can be inspected and verified by external observers.
 
- This repository functions as the public verification layer.
+ This repository functions as the public verification layer of the MoCKA architecture.
 
  ---
 
@@ -207,8 +192,7 @@
 
  ## 日本語説明
 
- mocka-transparency は
- MoCKA Insight System における
+ mocka-transparency は MoCKA Insight System における
 
  透明性  
  整合性  
@@ -226,16 +210,10 @@
 
  状態にするための制度である。
 
- 透明性とは
- 何でも公開することではない。
+ 透明性とは何でも公開することではない。
 
- 透明性とは
- 検証可能な証拠による
- 構造化された公開である。
+ 透明性とは検証可能な証拠による構造化された公開である。
 
- 整合性とは
- 信頼ではない。
+ 整合性とは信頼ではない。
 
- 整合性とは
- 第三者が独立して検証できる
- 一貫性である。
+ 整合性とは第三者が独立して検証できる一貫性である。
