@@ -1,120 +1,110 @@
-Ecosystem Navigation
+ï»¿# MoCKA Transparency
 
-MoCKA https://github.com/m-sirius-k/MoCKA
-MoCKA Knowledge Gate https://github.com/m-sirius-k/MoCKA-KNOWLEDGE-GATE
-MoCKA Civilization https://github.com/m-sirius-k/mocka-civilization
-MoCKA Transparency https://github.com/m-sirius-k/mocka-transparency
-MoCKA External Brain https://github.com/m-sirius-k/mocka-external-brain
-MoCKA Core Private https://github.com/m-sirius-k/mocka-core-private
+Verification and Proof Layer of the MoCKA Insight System
 
-MoCKA Transparency
+---
 
+## Philosophy
 
-Role
+Artificial intelligence can generate answers.
 
-mocka-transparency provides the transparency and integrity model for the MoCKA Insight System.
+But generation alone does not create knowledge.
 
-It defines how operational artifacts and decision traces can be inspected and verified by external observers.
+Knowledge requires three properties.
 
+Traceability  
+Verifiability  
+Provability  
 
-What This Repository Contains
+Most AI systems produce results that cannot be independently verified.
 
-Integrity and transparency model documents.
+MoCKA Transparency exists to change that.
 
-Verification oriented operational guidance.
+Transparency converts AI outputs into verifiable research artifacts.
 
-Design rules for auditability and reproducibility.
+---
 
+## Architecture
 
-Canonical Documentation
+The MoCKA system maintains knowledge circulation through two coordinated movements.
 
-Canonical docs are maintained in the ecosystem root documentation directory.
+![Dual Movement](docs/images/mocka_dual_movement.svg)
 
-C:\Users\sirok\mocka-ecosystem\_canon\docs
+### Primary Movement
 
-Key documents
+The primary research pipeline.
 
-INTEGRITY_TRANSPARENCY_MODEL.md
-VERIFICATION_QUICKSTART.md
-MOCKA_REPOSITORY_MAP.md
-MOCKA_ECOSYSTEM_DIAGRAM.md
+AI outputs are produced, analyzed, and passed through verification processes.
 
+This movement represents the normal operating mode of the research system.
 
-Core Concepts
+### Shadow Movement
 
-Transparency is not disclosure of everything.
+The fallback research path.
 
-Transparency is structured disclosure with verifiable artifacts.
+When the primary flow is interrupted, Shadow maintains knowledge circulation and research continuity.
 
-Integrity is not trust.
+Shadow guarantees a minimum operating capability of **75 percent**.
 
-Integrity is independently verifiable consistency.
+---
 
+## Verification Architecture
 
-Typical Workflow
+The Transparency layer transforms AI results into provable research evidence.
 
-1 Generate operational artifacts
+![Verification Architecture](docs/images/mocka_verification_architecture.svg)
 
-2 Hash and sign artifacts when required
+The transformation process follows four stages.
 
-3 Publish public safe artifacts
+AI Output  
+Research Artifact  
+Cryptographic Evidence  
+Public Verification
 
-4 Allow external observers to verify independently
+This structure ensures that research results are reproducible and externally verifiable.
 
+---
 
-“ú–{Œêà–¾
+## Workflow
 
+The Transparency verification process follows a deterministic workflow.
 
-mocka-transparency ‚Í MoCKA ƒGƒRƒVƒXƒeƒ€‚Ì
+1 AI experiment generates an output  
 
-“§–¾«
-®‡«
+2 A research artifact is created and stored  
 
-ƒ‚ƒfƒ‹‚ğ’è‹`‚·‚éƒŠƒ|ƒWƒgƒŠ‚Å‚ ‚éB
+3 Hash and signature are generated  
 
+4 Evidence becomes publicly verifiable  
 
-‚±‚ÌƒŠƒ|ƒWƒgƒŠ‚Ì–Ú“I
+Through this workflow, AI-generated results become research-grade evidence.
 
-‰^—p¬‰Ê•¨‚Æ”»’f­Õ‚ğ
+---
 
-ŠO•”ŠÏ‘ªÒ‚ª
+## Role in the MoCKA Ecosystem
 
-ŒŸ¸
-ŒŸØ
+MoCKA is composed of multiple research layers.
 
-‚Å‚«‚éŒ`‚Å¬—§‚³‚¹‚éB
+MoCKA Core  
+Produces research experiments and AI reasoning outputs.
 
+Knowledge Gate  
+Preserves institutional memory and research context.
 
-d—vŠT”O
+Transparency  
+Converts research results into publicly verifiable evidence.
 
-“§–¾«‚Í
-‰½‚Å‚àŒöŠJ‚·‚é‚±‚Æ‚Å‚Í‚È‚¢B
+Together these layers create a research infrastructure where AI outputs are not merely generated but **proven**.
 
-“§–¾«‚Í
-ŒŸØ‰Â”\‚È¬‰Ê•¨‚É‚æ‚é
-\‘¢‰»‚³‚ê‚½ŒöŠJ‚Å‚ ‚éB
+---
 
-®‡«‚Í
-M—Š‚Å‚Í‚È‚¢B
+## Repository Purpose
 
-®‡«‚Í
-‘æOÒ‚ª“Æ—§‚ÉŒŸØ‚Å‚«‚é
-ˆêŠÑ«‚Å‚ ‚éB
+This repository defines the verification layer of the MoCKA Insight System.
 
+Its purpose is to demonstrate how AI research results can be transformed into reproducible and verifiable artifacts.
 
-“TŒ^“Iƒ[ƒNƒtƒ[
+The goal is not to display AI capability.
 
-1 ‰^—p¬‰Ê•¨‚ğ¶¬‚·‚é
-
-2 •K—v‚É‰‚¶‚ÄƒnƒbƒVƒ…‚Æ–¼‚ğ•t—^‚·‚é
-
-3 ŒöŠJ‰Â”\‚È¬‰Ê•¨‚Ì‚İ‚ğŒöŠJ‚·‚é
-
-4 ŠO•”ŠÏ‘ªÒ‚ª“Æ—§ŒŸØ‚Å‚«‚éó‘Ô‚É‚·‚é
-## Role
-Primary Role: Transparency
-
-## Research Map
-See: RESEARCH_MAP.md
-
+The goal is to make AI research **provable**.
 
