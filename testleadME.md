@@ -22,6 +22,41 @@ MoCKA Transparency exists to change that.
 
 This repository defines how AI outputs can become provable research artifacts.
 
+
+ ## MoCKA Verification Architecture
+
+ <svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg">
+
+ <!-- Core -->
+ <rect x="60" y="150" width="180" height="80" rx="10" fill="#2d3748"/>
+ <text x="150" y="195" text-anchor="middle" fill="white" font-size="16">MoCKA Core</text>
+
+ <!-- Knowledge Gate -->
+ <rect x="360" y="60" width="200" height="80" rx="10" fill="#4a5568"/>
+ <text x="460" y="105" text-anchor="middle" fill="white" font-size="16">Knowledge Gate</text>
+
+ <!-- Transparency -->
+ <rect x="660" y="150" width="200" height="80" rx="10" fill="#2b6cb0"/>
+ <text x="760" y="195" text-anchor="middle" fill="white" font-size="16">Transparency</text>
+
+ <!-- Arrows -->
+ <line x1="240" y1="190" x2="360" y2="100" stroke="#555" stroke-width="3"/>
+ <polygon points="360,100 350,95 350,105" fill="#555"/>
+
+ <line x1="560" y1="100" x2="660" y2="190" stroke="#555" stroke-width="3"/>
+ <polygon points="660,190 650,185 650,195" fill="#555"/>
+
+ <!-- labels -->
+ <text x="290" y="135" font-size="13">research artifacts</text>
+ <text x="610" y="140" font-size="13">verification evidence</text>
+
+ <!-- bottom text -->
+ <text x="450" y="360" text-anchor="middle" font-size="14">
+ MoCKA converts AI results into verifiable research artifacts
+ </text>
+
+ </svg>
+
 ---
 
 ## What Makes This Different
